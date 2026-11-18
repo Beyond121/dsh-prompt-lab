@@ -4,18 +4,6 @@
 「档位（profile）」保存并一键切换，并捕获真正发送给模型的完整最终请求。
 面向提示词研究者。
 
-## 安装
-
-从 GitHub 获取后，DSH 会把它作为**链接目录**安装（改动后无需重新打包）：
-
-1. 克隆仓库或下载 ZIP 并解压，例如 `D:\tools\dsh-prompt-lab`；
-2. 在 DSH 的 **Plugins → Add plugin** 选择该目录，或让 agent 调用
-   `plugin_manager` 的 `install_bundle`，`target` 指向该目录；
-3. 刷新页面一次，打开 **设置 → Prompt Lab**。
-
-更新：`git pull` 后，在插件管理里重启 `prompt-lab` 行；只改了 `client.js` 的话刷新页面即可。
-
-
 ## 界面（推荐）
 
 安装后刷新页面一次，打开 **设置 → Prompt Lab**：
