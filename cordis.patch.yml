@@ -1,0 +1,5 @@
+# Prompt Lab: the Host row that edits live prompt assemblies and captures requests.
+- insert:
+    - id: prompt-lab
+      name: '@local/dsh-prompt-lab'
+      config: {}

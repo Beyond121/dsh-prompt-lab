@@ -1,0 +1,41 @@
+{
+  "name": "@local/dsh-prompt-lab",
+  "version": "0.1.0",
+  "description": "系统提示词研究与全量编辑：默认注入的每个 section/context/variable/工具描述都可编辑，并捕获发送给模型的完整最终请求。",
+  "private": true,
+  "license": "MIT",
+  "author": "Beyond121",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beyond121/dsh-prompt-lab.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "AGENTS.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}

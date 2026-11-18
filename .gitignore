@@ -1,0 +1,13 @@
+# Per-user runtime state: overrides, profiles, capture settings.
+# Share prompt sets through the plugin's own profile export JSON instead.
+state.json
+
+# Dependencies and build output (this bundle has none, but keep the repo clean).
+node_modules/
+dist/
+*.tmp
+*.log
+
+# OS metadata.
+.DS_Store
+Thumbs.db

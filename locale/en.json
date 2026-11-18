@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt Lab",
+    "description": "Makes every prompt entry the system injects fully editable — identity, role, tool guidance, runtime and safety contexts, variables and tool schemas — with saveable prompt profiles you can switch without restarting, and a viewer for the exact request sent to the model. A Scenarios tab groups scenario-only entries (plan mode, agent teams, MCP, subagent depth) and lists captured auxiliary requests (compaction, session titles), whose instruction text can be overridden when the package allows it. Open Settings > Prompt Lab (refresh the page once after installing). Changes apply to the next model step of every session and persist in the plugin's state file. Cross-origin API calls are rejected; the API is meant for this machine only."
+  }
+}
